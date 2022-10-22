@@ -76,6 +76,13 @@ body {
     color: #fff;
 }
 
+@media(max-with: 1300px) {
+    .contents {
+        width: 1200px;
+        height: 800px;
+    }
+}
+
 
 @media (max-width: 1000px) {
     .contents {
