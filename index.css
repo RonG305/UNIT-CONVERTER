@@ -102,8 +102,8 @@ body {
 
 @media(max-width: 500px) {
     .contents {
-        width: 370px;
-        height: auto;
+        width: 390px;
+        height: 1000px;
         font-size: 14px;
         
         
