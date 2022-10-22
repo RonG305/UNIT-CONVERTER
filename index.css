@@ -78,7 +78,7 @@ body {
 
 @media(max-with: 1300px) {
     .contents {
-        width: 1200px;
+        width: device-width;
         height: 800px;
     }
 }
