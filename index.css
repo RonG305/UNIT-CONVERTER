@@ -78,6 +78,7 @@ body {
 
 @media(max-with: 1500px) {
     .contents {
+        margin-left: 20px
         width: 1400px;
         height: 800px;
     }
