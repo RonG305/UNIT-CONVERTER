@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+
+.contents {
+    width: auto;
+    height: 800px;
+    background-color: #1F2937;
+    position: relative;
+    top: 60px;
+    border: 1px solid black;
+    text-align: center;
+    
+    
+    
+}
+
+.top-section {
+  height: 35%;
+  background-color: #6943ff;
+  
+}
+.top-section h2 {
+    color: #fff;
+    padding: 2rem 0;
+}
+
+#input-btn {
+    width: 120px;
+    height: 70px;
+    outline: none;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    
+
+}
+
+.converter-btn {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin: 2rem 0;
+    font-weight: bold;
+}
+.conversion-section {
+    height: 70%;
+}
+
+.conversion-unit {
+    margin: 2rem 1.2rem;
+    background-color:#273549;
+    padding: 1.7rem 0.9rem;
+    line-height: 1.8rem;
+    color: #fff;
+}
+
+
+@media (max-width: 1000px) {
+    .contents {
+        width: 800px;
+        height: auto;
+    }
+
+
+    
+}
+
+@media(max-width: 800px) {
+    .contents {
+        width: 500px;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 500px) {
+    .contents {
+        width: 300px;
+        height: auto;
+        font-size: 14px;
+        
+        
+    }
+
+    .container {
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .contents {
+        position: relative;
+        top: 10px;
+        align-items: center;
+    }
+
+}
+
+
