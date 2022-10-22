@@ -76,9 +76,9 @@ body {
     color: #fff;
 }
 
-@media(max-with: 1300px) {
+@media(max-with: 1500px) {
     .contents {
-        width: device-width;
+        width: 1400px;
         height: 800px;
     }
 }
