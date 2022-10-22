@@ -79,8 +79,9 @@ body {
 
 @media (max-width: 1000px) {
     .contents {
-        width: 800px;
-        height: auto;
+        width: 1000px;
+        height: 800px;
+        margin: 20px 10px;
     }
 
 
